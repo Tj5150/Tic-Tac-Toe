@@ -1,0 +1,97 @@
+body {
+  background-color: deepskyblue;
+}
+
+.container {
+  text-decoration: ghostwhite;
+}
+
+#title {
+  color: ghostwhite;
+  font-size: 4rem;
+  text-align: center;
+}
+
+#turn {
+  text-align: center;
+  color: ghostwhite;
+  font-size: 2rem;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+  transition: background-color 1s;
+}
+
+#score {
+  color: ghostwhite;
+  font-size: 2.5rem;
+  width: 12rem;
+  margin: 0;
+  position: absolute;
+}
+
+h1 {
+  margin: 0;
+  font-family: lobster two;
+}
+
+table {
+  table-layout: fixed;
+  width: 35rem;
+  height: 35rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem;
+  font-size: 7.5rem;
+}
+
+td {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  background-color: transparent;
+  border: transparent;
+  font-size: 7.5rem;
+  color: white;
+  transition: background-color 1s;
+  width: 11rem;
+  height: 11rem;
+}
+
+td:hover {
+  background-color: blue;
+  transition: background-color 1s;
+}
+
+.r1 {
+  border-bottom: 5px solid white;
+  border-right: 5px solid white;
+  text-align: center;
+}
+
+.r1c3 {
+  border-bottom: 5px solid white;
+  text-align: center;
+}
+
+.mid {
+  border-right: 5px solid white;
+  border-bottom: 5px solid white;
+  text-align: center;
+}
+
+.mid-right {
+  border-bottom: 5px solid white;
+  text-align: center;
+}
+
+.bottom {
+  border-right: 5px solid white;
+  text-align: center;
+}
+
+.bottom-right {
+  text-align: center;
+}
