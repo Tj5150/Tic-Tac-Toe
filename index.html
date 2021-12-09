@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="tictactoe.css" />
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital@1&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div id="title"><h1>Tic-Tac-Toe</h1></div>
+      <div id="score">WINS<br />Player 1: <span id="p1Score">0</span><br />Player 2: <span id="p2Score">0</span></div>
+      <div id="turn"><p id="turnText">Current Player:</p></div>
+      <table>
+        <tr class="top">
+          <td class="r1 box" onclick="mark(1)" id="1"></td>
+          <td class="r1 box" onclick="mark(2)" id="2"></td>
+          <td class="r1c3 box" onclick="mark(3)" id="3"></td>
+        </tr>
+        <tr class="mid">
+          <td class="mid box" onclick="mark(4)" id="4"></td>
+          <td class="mid box" onclick="mark(5)" id="5"></td>
+          <td class="mid-right box" onclick="mark(6)" id="6"></td>
+        </tr>
+        <tr class="bottom">
+          <td class="bottom box" onclick="mark(7)" id="7"></td>
+          <td class="bottom box" onclick="mark(8)" id="8"></td>
+          <td class="bottom-right box" onclick="mark(9)" id="9"></td>
+        </tr>
+      </table>
+    </div>
+    <script src="tictactoe.js"></script>
+  </body>
+</html>
